@@ -1,0 +1,11 @@
+{{ define "content" }}
+    <section class="container list">
+        <h1>{{ .Title }}</h1>
+        <ul>
+            {{ range .Paginator.Pages }}
+            <li><span>{{ .Date.Format "2006-01-2" }}</span><a href="{{ .URL }}">{{ .Title }}</a><em> @ {{.Params.event}}</em> ({{.Params.location}})</li>
+            {{ end }}
+        </ul>
+        {{ partial "pagination.html" . }}
+    </section>
+{{ end }}

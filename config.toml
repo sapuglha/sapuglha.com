@@ -1,0 +1,53 @@
+baseurl = "https://www.sapuglha.com/"
+title = "I, code"
+
+theme = "coder"
+
+languagecode = "en"
+
+paginate = 20
+canonifyurls = true
+
+pygmentsstyle = "b2"
+pygmentscodefences = true
+pygmentscodefencesguesssyntax = true
+
+[params]
+    author = "Tiago Silva"
+    description = "Tighten droids' nuts and bolts"
+    keywords = "blog,developer,personal"
+    info = "Tighten droids' nuts and bolts"
+
+    hideCredits = false
+    hideCopyright = false
+
+    # Custom CSS
+	custom_css = []
+
+[[params.social]]
+    name = "Github"
+    weight = 1
+    url = "https://github.com/sapuglha/"
+[[params.social]]
+    name = "Twitter"
+    weight = 2
+    url = "https://twitter.com/sapuglha/"
+[[params.social]]
+    name = "LinkedIn"
+    weight = 3
+    url = "https://www.linkedin.com/in/TiagoSantannaSilva/"
+
+[[menu.main]]
+    name = "Blog"
+    weight = 1
+    url  = "/post/"
+
+[[menu.main]]
+    name = "Talks"
+    weight = 2
+    url  = "/talk/"
+
+[[menu.main]]
+    name = "About"
+    weight = 3
+    url = "/about/"
