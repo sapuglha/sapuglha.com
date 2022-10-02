@@ -1,14 +1,13 @@
 baseurl = "https://www.sapuglha.com/"
 title = "I, code"
-
-theme = "coder"
-
+theme = "hugo-coder"
 languagecode = "en"
+defaultcontentlanguage = "en"
 
 paginate = 20
 canonifyurls = true
 
-pygmentsstyle = "b2"
+pygmentsstyle = "bw"
 pygmentscodefences = true
 pygmentscodefencesguesssyntax = true
 
@@ -26,14 +25,17 @@ pygmentscodefencesguesssyntax = true
 
 [[params.social]]
     name = "Github"
+	icon = "fa fa-github fa-2x"
     weight = 1
     url = "https://github.com/sapuglha/"
 [[params.social]]
     name = "Twitter"
+	icon = "fa fa-twitter fa-2x"
     weight = 2
     url = "https://twitter.com/sapuglha/"
 [[params.social]]
     name = "LinkedIn"
+	icon = "fa fa-linkedin fa-2x"
     weight = 3
     url = "https://www.linkedin.com/in/TiagoSantannaSilva/"
 
