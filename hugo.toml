@@ -1,4 +1,4 @@
-baseurl = "sapuglha.com"
+baseurl = "https://www.sapuglha.com/"
 title = "I, code"
 theme = "hugo-coder"
 languagecode = "en"
